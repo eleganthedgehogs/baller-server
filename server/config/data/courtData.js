@@ -6,7 +6,7 @@ module.exports = [
     imageUrl: 'http://cdn.sfstation.com/wp-content/uploads/2015/07/missionbay.jpg'
   },
   {
-    name: 'Delores Park',
+    name: 'Dolores Park',
     latitude: 37.7598,
     longitude: -122.4260,
     imageUrl: 'http://cdn.sfstation.com/wp-content/uploads/2015/07/dolores1.jpg'
@@ -43,8 +43,8 @@ module.exports = [
   },
   {
     name: 'Panhandle Courts',
-    latitude: 37.7571,
-    longitude: -122.4866,
+    latitude: 37.7723,
+    longitude: -122.4483,
     imageUrl: 'http://cdn.sfstation.com/wp-content/uploads/2015/07/sunset1.jpg'
   }
 ];
