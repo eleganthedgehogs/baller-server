@@ -1,0 +1,35 @@
+{
+  "name": "baller-server",
+  "version": "1.0.0",
+  "description": "Server dependencies",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "mocha server/spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eleganthedgehogs/baller-server.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "eleganthedgehogs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eleganthedgehogs/baller-server/issues"
+  },
+  "homepage": "https://github.com/eleganthedgehogs/baller-server#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "method-override": "^2.3.6",
+    "mocha": "^3.1.2",
+    "mongoose": "^4.6.5",
+    "morgan": "^1.7.0",
+    "request": "^2.76.0"
+  }
+}
