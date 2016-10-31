@@ -7,7 +7,7 @@ var port = process.env.PORT || 8000;
 var app = express();
 
 /***************************DATABASE*****************************/
-mongoose.connect('mongodb://localhost/baller');
+mongoose.connect('mongodb://baller:baller@ds059722.mlab.com:59722/baller-db');
 
 /**************************MIDDLEWARE****************************/
 middleware(app);
